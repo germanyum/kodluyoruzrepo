@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\Desktop\\Yeni klasör (3)\\Yeni klasör (3).csproj": {}
+    "C:\\Users\\hp\\Desktop\\kodluyoruzrepo\\C# 101  Değişkenler ve Veri Tiplerleri\\Yeni klasör (3).csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\Desktop\\Yeni klasör (3)\\Yeni klasör (3).csproj": {
+    "C:\\Users\\hp\\Desktop\\kodluyoruzrepo\\C# 101  Değişkenler ve Veri Tiplerleri\\Yeni klasör (3).csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\Desktop\\Yeni klasör (3)\\Yeni klasör (3).csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\kodluyoruzrepo\\C# 101  Değişkenler ve Veri Tiplerleri\\Yeni klasör (3).csproj",
         "projectName": "Yeni klasör (3)",
-        "projectPath": "C:\\Users\\hp\\Desktop\\Yeni klasör (3)\\Yeni klasör (3).csproj",
+        "projectPath": "C:\\Users\\hp\\Desktop\\kodluyoruzrepo\\C# 101  Değişkenler ve Veri Tiplerleri\\Yeni klasör (3).csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\Desktop\\Yeni klasör (3)\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\kodluyoruzrepo\\C# 101  Değişkenler ve Veri Tiplerleri\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
