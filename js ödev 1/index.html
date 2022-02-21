@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #333;
+      }
+      .baslik2 {
+        font-weight: bold;
+      }
+      center h1 {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <center><h1 class="baslik2">Patika DEV</h1></center>
+    <center><h1 id="baslik"></h1></center>
+    <center><h1 id="tarih"></h1></center>
+    <center><h1>patika dev javascript 1.ödevdesin</h1></center>
+  </body>
+  <script>
+    function zaman() {
+      let date = new Date();
+      let days = [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+      ];
+      let zaman =
+        date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+      let tarih = document.querySelector("#tarih");
+      tarih.innerHTML = "Saat " + zaman + " " + days[date.getDay()];
+    }
+    zaman();
+    setInterval(() => {
+      zaman();
+    }, 1000);
+    let alan = prompt("Lütfen Adınızı Giriniz");
+
+    let baslik = document.querySelector("#baslik");
+    baslik.innerHTML = "Merhaba " + alan + " Hoşgeldin";
+  </script>
+</html>
